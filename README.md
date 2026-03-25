@@ -52,7 +52,7 @@ A custom scoring algorithm that scales wildly different metrics (Cost in fractio
 3.  **MCP Metric Fetch:** The router queries the MCP server, which dips into the benchmark database to return the historical accuracy and latency for all candidate models in that specific domain.
 4.  **Cost-Benefit Calculation:** Models are scored. If the task is simple, high-cost frontier models are heavily penalized in favor of faster, cheaper alternatives.
 5.  **Execution:** The payload is routed to the winning cloud endpoint.
-6.  **Aggregation:** Results are seamlessly returned to the MAS pipeline.
+6.  **Aggregation:** Results are seamlessly returned to the pipeline.
 
 ---
 
@@ -66,11 +66,4 @@ A custom scoring algorithm that scales wildly different metrics (Cost in fractio
 
 ---
 
-## 📝 License & Citation
-
-This project is licensed under the MIT License. 
-
-This work builds upon foundational heterogeneous MAS benchmarking research developed during an Applied AI Research Internship at **Ericsson Research**, extending those concepts into modern cloud economics and the **Model Context Protocol (MCP)** open standard.
-
----
 **Disclaimer:** This is an active research prototype. Cloud routing configurations should be thoroughly tested before deployment in strict production environments.
