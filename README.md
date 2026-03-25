@@ -1,4 +1,4 @@
-# 🌩️ Agent-In-The-Cloud: Cost-Optimized Dynamic LLM Routing for MAS
+# 🌩️ Agent-Router: Cost-Optimized Dynamic LLM Router for the cloud
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg) [![Multi-Agent Systems](https://img.shields.io/badge/Field-Multi--Agent_Systems-green)](https://github.com/topics/multi-agent-systems) [![Cloud Computing](https://img.shields.io/badge/Domain-Cloud_Computing-purple)](https://github.com/topics/cloud-computing) [![LLM Routing](https://img.shields.io/badge/Technology-LLM_Routing-orange)](https://github.com/topics/llm)
 
