@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg) [![Multi-Agent Systems](https://img.shields.io/badge/Field-Multi--Agent_Systems-green)](https://github.com/topics/multi-agent-systems) [![Cloud Computing](https://img.shields.io/badge/Domain-Cloud_Computing-purple)](https://github.com/topics/cloud-computing) [![LLM Routing](https://img.shields.io/badge/Technology-LLM_Routing-orange)](https://github.com/topics/llm)
 
-**Agent-Router** is an intelligent, context-aware routing framework to select most optimal LLM deployed in the cloud. It dynamically evaluates user intent and system constraints to route queries to the most optimal Large Language Model (LLM) deployed across cloud infrastructure—**strictly optimizing for cost, latency, and required reasoning capability.**
+**Agent-Router** is an intelligent, context-aware routing framework to select most optimal LLM deployed in the cloud. It dynamically evaluates user intent and system constraints to route queries to the most optimal Large Language Model (LLM) deployed across cloud infrastructure, **strictly optimizing for cost, latency, and required reasoning capability.**
 
 Building upon foundational research in heterogeneous agent topologies, this project focuses on live, cloud-native cost management and dynamic selection, leveraging pre-existing benchmark data.
 
@@ -10,7 +10,7 @@ Building upon foundational research in heterogeneous agent topologies, this proj
 
 ## 🧠 The Cloud AI Problem
 
-As Multi-Agent Systems scale in production, homogeneous architectures (using a single flagship LLM for every task) introduce severe inefficiencies:
+As AI Systems scale in production, homogeneous architectures (using a single flagship LLM for every task) introduce severe inefficiencies:
 * **Cost Bloat:** Using a frontier model (e.g., GPT-4 class) for simple data extraction tasks destroys profit margins.
 * **Latency Bottlenecks:** Heavy reasoning models introduce unnecessary latency for tasks that require speed over deep logic.
 * **Vendor Lock-in:** Relying on a single cloud provider limits access to specialized, open-source models deployed on alternative infrastructure.
@@ -29,7 +29,7 @@ The orchestrator agent calculates a weighted score for every available cloud-dep
 
 ## ⚙️ System Architecture
 
-![System Architecture](https://github.com/sesiii/HeteroLLMs/blob/main/architecture.png) 
+![System Architecture](Agent-Router/agent.png) 
 *(Note: Replace with updated Cloud Architecture Diagram)*
 
 ### 1. LangGraph Orchestrator
