@@ -36,7 +36,7 @@ The orchestrator agent calculates a weighted score for every available cloud-dep
 The brain of the system. It intercepts the user query, classifies the intent, and determines the necessary threshold for accuracy vs. cost. 
 
 ### 2. The Knowledge Base: MCP-Powered Benchmark Database
-Instead of running expensive evaluations at runtime, this framework relies on an **MCP Server** connected to a rich database of LLM benchmarks (gathered during prior applied research at Ericsson). 
+Instead of running expensive evaluations at runtime, this framework relies on an **MCP Server** connected to a rich database of LLM benchmarks. 
 * The database contains historical performance data (Accuracy, Peak Memory, Latency) for various models across highly specific domains (Medical, Finance, Mathematics, Coding, etc.).
 * The MCP server exposes this data via secure tool calls, allowing the orchestrator to instantly pull the exact metrics needed to make an informed routing decision.
 
