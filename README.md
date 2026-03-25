@@ -47,7 +47,7 @@ A custom scoring algorithm that scales wildly different metrics (Cost in fractio
 
 ## 🚀 Workflow Execution
 
-1.  **Ingestion:** Query hits the Multi-Agent System.
+1.  **Ingestion:** Query hits the AI application in the cloud.
 2.  **Intent Mapping:** The Agentic Router evaluates the prompt's complexity and maps it to a specific domain (e.g., `Domain: Medical`, `Subdomain: Diagnostics`).
 3.  **MCP Metric Fetch:** The router queries the MCP server, which dips into the benchmark database to return the historical accuracy and latency for all candidate models in that specific domain.
 4.  **Cost-Benefit Calculation:** Models are scored. If the task is simple, high-cost frontier models are heavily penalized in favor of faster, cheaper alternatives.
