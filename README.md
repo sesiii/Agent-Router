@@ -29,8 +29,8 @@ The orchestrator agent calculates a weighted score for every available cloud-dep
 
 ## ⚙️ System Architecture
 
-![System Architecture](Agent-Router/agent.png) 
-*(Note: Replace with updated Cloud Architecture Diagram)*
+![System Architecture](https://github.com/sesiii/Agent-Router/blob/main/agent.png) 
+
 
 ### 1. LangGraph Orchestrator
 The brain of the system. It intercepts the user query, classifies the intent, and determines the necessary threshold for accuracy vs. cost. 
